@@ -151,16 +151,50 @@ a:focus, a:hover {
     margin: auto;
     border: 1.5px solid #ff9595;}
 
-.ultimas_entradas {margin-top: 4em;}
-.ultimas_entradas h4 {font-size: 16px; font-weight: 600;}
+.ultimas_entradas {
+	margin-top: 4em;}
+
+.ultimas_entradas h4 {
+	font-size: 16px; font-weight: 600;}
 
 
 /* Mapa */
-.jumbotron {background-image: url(../img/home_mapa.jpg); background-repeat: no-repeat;
-    background-size: cover;}
-.jumbotron_info {color: white; text-align: center; padding: 4em 0;}
-.jumbotron_info p {font-size: 16px; font-weight: 500; padding-top: 1em;}
-.jumbotron_info i {font-size: 30px;}
+.jumbotron {
+	background-image: url(../img/home_mapa.jpg); 
+	background-repeat: no-repeat;
+    background-size: cover;
+	margin-bottom: 0;}
+
+.jumbotron_info {
+	color: white; 
+	text-align: center; 
+	padding: 4em 0;}
+
+.jumbotron_info p {
+	font-size: 16px; 
+	font-weight: 500; 
+	padding-top: 1em;}
+
+.jumbotron_info i {
+	font-size: 30px;}
+
+
+/* Footer */
+.pie {
+	background-color: #333333; 
+	padding: 4em;}
+
+.pie p {
+	color: white; font-weight: 600;}
+
+.pie span {
+	font-weight: 300;}
+
+.footer {
+	background-color: #191919; 
+	padding: 1em;}
+
+.footer h6 {text-align: center; color: white; font-weight: 300;}
 
 
 
