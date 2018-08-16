@@ -10,9 +10,6 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-	<!-- Mis estilos -->
-	<link rel="stylesheet" href="assets/css/estilo_kineduomed.css">
-
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		
@@ -22,13 +19,18 @@
 	<!-- Swiper -->
 	<link rel="stylesheet" href="assets/css/swiper.min.css">
 
+	<!-- Mis estilos -->
+	<link rel="stylesheet" href="assets/css/estilo_kineduomed.css">
+	<link rel="stylesheet" href="assets/css/media_queries.css">
+
+
 </head>
 <body>
 	<div class="container-fluid fixed">
 		<header class="cabecera">
 			<div class="row blanco">
 				<div class="col-xs-12 col-sm-7 col-md-5 col-lg-4">
-					<img class="logotipo container" src="assets/img/logo_kineduomed.svg" alt="logo kineduomed">
+					<a href="index.html"><img class="logotipo container" src="assets/img/logo_kineduomed.svg" alt="logo kineduomed"></a>
 				</div>
 				<div class="info container">
 					<h4>+56 9 6318 7339</h4>
@@ -51,7 +53,7 @@
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav">
-				        <li><a href="#">HOME</a></li>
+				        <li><a href="index.html">HOME</a></li>
 				        <li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS</a>
 				          <ul class="dropdown-menu">
@@ -83,26 +85,66 @@
 		</header>
 	</div>
 
+
 	<div class="servicios_main container">
 		<div class="row">
-			<img class="img_servicios" src="assets/img/prueba.svg" alt="KINESIOLOGÍA MUSCULO-ESQUELÉTICA">
-			<h2>KINESIOLOGÍA MUSCULO-ESQUELÉTICA</h2>
+			<h2 class="titulos">
+				<span class="linea_center">SERVICIOS</span>
+			</h2>	
+
+			<div id="musculo">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h4><img class="img_servicios" src="assets/img/prueba.svg" alt="KINESIOLOGÍA MUSCULO-ESQUELÉTICA">KINESIOLOGÍA MUSCULO-ESQUELÉTICA</h4>
+					<p>Nuestros pacientes contarán con los servicios adecuados para una buena rehabilitación y/o disminución y control de sus patologías respiratorias crónicas:</p>
+					<ul>
+						<li>Fisioterapia</li>
+						<li>Educación y reeducación</li>
+						<li>Tape neuromuscular y crosstape</li>
+						<li>Punción seca</li>
+						<li>Ejercicios funcionales</li>
+						<li>Masoterapia</li>
+					</ul>
+					<br>
+					<br>
+					<hr>
+				</div>
+			</div>
+
+			<div id="respiratoria">
+				<div class="col-lg-8 col-lg-offset-2">
+					<img class="img_servicios" src="assets/img/prueba.svg" alt="KINESIOLOGÍA RESPIRATORIA">
+					<h4>KINESIOLOGÍA RESPIRATORIA</h4>
+					<p>Para una adecuada rehabilitación musculoesquelética contamos con los siguientes servicios:</p>
+					<ul>
+						<li>TTKK respiratorias</li>
+						<li>Ejercicios para la función pulmonar</li>
+						<li>Educación sobre su patología de base y los cuidados necesarios para su control</li>
+					</ul>
+					<br>
+					<br>
+					<hr>
+				</div>
+			</div>
+
+			<div id="reductivo">
+				<div class="col-lg-8 col-lg-offset-2">
+					<img class="img_servicios" src="assets/img/prueba.svg" alt="MASAJES REDUCTIVOS Y YESOTERAPIA">
+					<h4>MASAJES REDUCTIVOS Y YESOTERAPIA</h4>
+					<p>Para una adecuada rehabilitación musculoesquelética contamos con los siguientes servicios:</p>
+					<ul>
+						<li>TTKK respiratorias</li>
+						<li>Ejercicios para la función pulmonar</li>
+						<li>Educación sobre su patología de base y los cuidados necesarios para su control</li>
+					</ul>
+					<br>
+					<br>
+					<hr>
+				</div>
+			</div>
 		</div>
-		<p>Para una adecuada rehabilitación musculoesquelética contamos con los siguientes servicios:</p>
-		<ul>
-			<li>Fisioterapia</li>
-			<li>Educación y reeducación</li>
-			<li>Tape neuromuscular y crosstape</li>
-			<li>Punción seca</li>
-			<li>Ejercicios funcionales</li>
-			<li>Masoterapia</li>
-		</ul>
 	</div>
 
-
-
-
-<section class="pie container-fluid">
+	<section class="pie container-fluid">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-md-4">
@@ -115,8 +157,8 @@
 					<br>
 					<p>DIRECCIÓN</p>
 					<p><i class="fas fa-map-marker-alt"></i><span>Angol 463, piso 9, oficina 904, Edificio Millenium, Concepción</span></p>
-					<p><i class="fab fa-whatsapp"></i><span>+56 9 6318 7339</span></p>
-					<p><i class="fas fa-envelope"></i></i><span>contacto@kineduomed.cl</span></p>
+					<p><a href="https://api.whatsapp.com/send?phone=56963187339&text=&source=&data="><i class="fab fa-whatsapp"></i><span>+56 9 6318 7339</span></a></p>
+					<p><a href="mailto:kineduomed@gmail.com"><i class="fas fa-envelope"></i></i><span>contacto@kineduomed.cl</span></a></p>
 				</div>
 				
 				<div class="col-sm-6 col-md-4">
@@ -125,21 +167,17 @@
 					<p><i class="far fa-clock"></i><span>Lunes a viernes de 09:00 a 20:00 hrs.</span></p>
 					<br>
 					<p>SÍGUENOS</p>
-					<p><i class="fab fa-facebook-square"></i></p>
+					<p><a href="https://www.facebook.com/kineduomed/" target="_blank"><i class="fab fa-facebook-square"></i></a></p>
 				</div>
 			</div>
 		</div>	
 	</section>
 
-	<footer class="footer container-fluid">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<h6>Kineduomed© 2018. Todos los derechos reservados</h6>
-				</div>
-			</div>
-		</div>		
-	</footer>	
+	<footer class="footer">
+		<div>
+			<h6>Kineduomed© 2018. Todos los derechos reservados</h6>
+		</div>	
+	</footer>
 
 	<!-- jQuery -->
 	<script src="assets/js/jquery-3.3.1.min.js"></script>
@@ -147,11 +185,11 @@
 	<!-- Bootstrap -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<!-- Mis scripts -->
-	<script src="assets/js/script_kineduomed.js"></script>
-
 	<!-- Swiper -->
 	<script src="assets/js/swiper.jquery.min.js"></script>
+
+	<!-- Mis scripts -->
+	<script src="assets/js/script_kineduomed.js"></script>
 
 </body>
 </html>
