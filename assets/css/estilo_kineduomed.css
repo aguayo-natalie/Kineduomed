@@ -200,29 +200,15 @@ a:focus, a:hover {
 .footer h6 {text-align: center; color: white; font-weight: 300;}
 
 
-
-/* Media Queries */
-
-@media (max-width: 767px){
-.info {
-	display: none;}
-
-.logotipo {
-	width: 60%}
-
-
-.fondo {
-	margin-top: 10.8em;
-	background-position: 75%;}
+/* Página Servicios */
+.servicios_main {
+    margin-top: 15em;
+    text-align: center;
 }
 
+.img_servicios {width: 12%;}
 
-@media (min-width: 767px) and (max-width: 991px){
-.imagen_nosotros_home {
-    background-position: 0% 95%;
-    }
 
-}
 
 
 

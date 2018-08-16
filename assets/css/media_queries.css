@@ -1,0 +1,22 @@
+/* Media Queries */
+
+@media (max-width: 767px){
+.info {
+	display: none;}
+
+.logotipo {
+	width: 60%}
+
+
+.fondo {
+	margin-top: 10.8em;
+	background-position: 75%;}
+}
+
+
+@media (min-width: 767px) and (max-width: 991px){
+.imagen_nosotros_home {
+    background-position: 0% 95%;
+    }
+
+}
