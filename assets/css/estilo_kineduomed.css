@@ -12,9 +12,12 @@ h1, h2 {font-weight: 300; font-size: 24px;}
 
 
 /* Agendar hora */
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
     color: #fff;
-    background-color: #ff9595;}
+    background-color: #ff9595;
+	padding: 16px 25px;}
+
+.nav-pills>li.active>a:hover {background-color: #ff8282;}
 
 .nav-pills>li>a {
     border-radius: 0;}
@@ -123,16 +126,17 @@ a:focus, a:hover {
 	background-image: url(../img/nosotros_home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;}
+    background-position: 10% 75%;
+    height: 425px;}
 
 .nosotros_home {
 	margin-top: 16em; 
-	background-color: #f8f8f8; 
-	padding: 4em;}
+	background-color: #f8f8f8;}
 
 .textos span {
 	font-weight: 600;}
 
+.textos {padding: 4em;}
 .textos p {padding-top: 3em;}
 
 
@@ -209,8 +213,14 @@ a:focus, a:hover {
 
 .fondo {
 	margin-top: 10.8em;
-background-position: 75%;}
+	background-position: 75%;}
+}
 
+
+@media (min-width: 767px) and (max-width: 991px){
+.imagen_nosotros_home {
+    background-position: 0% 95%;
+    }
 
 }
 
