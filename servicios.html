@@ -22,7 +22,16 @@
 	<!-- Mis estilos -->
 	<link rel="stylesheet" href="assets/css/estilo_kineduomed.css">
 	<link rel="stylesheet" href="assets/css/media_queries.css">
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124174811-1"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
 
+  	gtag('config', 'UA-124174811-1');
+	</script>
 
 </head>
 <body>
@@ -57,15 +66,15 @@
 				        <li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS</a>
 				          <ul class="dropdown-menu">
-				            <li><a href="#">KINESIOLOGÍA MUSCULO-ESQUELÉTICA</a></li>
+				            <li><a href="servicios.html#servicio_musculo">KINESIOLOGÍA MUSCULO-ESQUELÉTICA</a></li>
 				            <li role="separator" class="divider"></li>
-				            <li><a href="#">KINESIOLOGÍA RESPIRATORIA</a></li>
+				            <li><a href="servicios.html#servicio_respiratoria">KINESIOLOGÍA RESPIRATORIA</a></li>
 				            <li role="separator" class="divider"></li>
-				            <li><a href="#">MASAJES REDUCTIVOS Y YESOTERAPIA</a></li>
+				            <li><a href="servicios.html#servicio_reductivo">MASAJES REDUCTIVOS Y YESOTERAPIA</a></li>
 				            <li role="separator" class="divider"></li>
-				            <li><a href="#">SALUD Y PREVENCIÓN EN EMPRESAS</a></li>
+				            <li><a href="servicios.html#servicio_empresas">SALUD Y PREVENCIÓN EN EMPRESAS</a></li>
 				            <li role="separator" class="divider"></li>
-				            <li><a href="#">ATENCIÓN KINÉSICA A DOMICILIO</a></li>
+				            <li><a href="servicios.html#servicio_domicilio">ATENCIÓN KINÉSICA A DOMICILIO</a></li>
 				          </ul>
 				        </li>
 				        <li><a href="#">CONVENIOS</a></li>
@@ -85,17 +94,15 @@
 		</header>
 	</div>
 
-
-	<div class="servicios_main container">
+	<div class="container-fluid servicios_main">
 		<div class="row">
-			<h2 class="titulos">
-				<span class="linea_center">SERVICIOS</span>
-			</h2>	
 
-			<div id="musculo">
-				<div class="col-lg-8 col-lg-offset-2">
-					<h4><img class="img_servicios" src="assets/img/prueba.svg" alt="KINESIOLOGÍA MUSCULO-ESQUELÉTICA">KINESIOLOGÍA MUSCULO-ESQUELÉTICA</h4>
-					<p>Nuestros pacientes contarán con los servicios adecuados para una buena rehabilitación y/o disminución y control de sus patologías respiratorias crónicas:</p>
+				<div class="col-md-8 col-md-offset-2 musculo">
+					<div id="servicio_musculo" class="centrar">
+						<img class="img_servicios" src="assets/img/prueba.svg" alt="KINESIOLOGÍA MUSCULO-ESQUELÉTICA">
+						<h4>KINESIOLOGÍA MUSCULO-ESQUELÉTICA</h4>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sequi sed esse, repellat sapiente consequuntur fugiat veniam impedit doloremque totam fuga recusandae ut, autem! Architecto totam neque, ratione illo numquam. Ratione, sequi sed esse, repellat sapiente consequuntur fugiat veniam impedit doloremque totam fuga recusandae ut, autem! Architecto totam neque, ratione illo numquam:</p>
 					<ul>
 						<li>Fisioterapia</li>
 						<li>Educación y reeducación</li>
@@ -104,43 +111,61 @@
 						<li>Ejercicios funcionales</li>
 						<li>Masoterapia</li>
 					</ul>
-					<br>
-					<br>
-					<hr>
 				</div>
-			</div>
-
-			<div id="respiratoria">
-				<div class="col-lg-8 col-lg-offset-2">
-					<img class="img_servicios" src="assets/img/prueba.svg" alt="KINESIOLOGÍA RESPIRATORIA">
-					<h4>KINESIOLOGÍA RESPIRATORIA</h4>
-					<p>Para una adecuada rehabilitación musculoesquelética contamos con los siguientes servicios:</p>
+			
+				<div class="col-md-8 col-md-offset-2 respiratoria">
+					<div id="servicio_respiratoria" class="centrar">
+						<img class="img_servicios" src="assets/img/prueba.svg" alt="KINESIOLOGÍA RESPIRATORIA">
+						<h4>KINESIOLOGÍA RESPIRATORIA</h4>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sequi sed esse, repellat sapiente consequuntur fugiat veniam impedit doloremque totam fuga recusandae ut, autem! Architecto totam neque, ratione illo numquam. Ratione, sequi sed esse, repellat sapiente consequuntur fugiat veniam impedit doloremque totam fuga recusandae ut, autem! Architecto totam neque, ratione illo numquam:</p>
 					<ul>
 						<li>TTKK respiratorias</li>
 						<li>Ejercicios para la función pulmonar</li>
 						<li>Educación sobre su patología de base y los cuidados necesarios para su control</li>
 					</ul>
-					<br>
-					<br>
-					<hr>
 				</div>
-			</div>
-
-			<div id="reductivo">
-				<div class="col-lg-8 col-lg-offset-2">
-					<img class="img_servicios" src="assets/img/prueba.svg" alt="MASAJES REDUCTIVOS Y YESOTERAPIA">
-					<h4>MASAJES REDUCTIVOS Y YESOTERAPIA</h4>
-					<p>Para una adecuada rehabilitación musculoesquelética contamos con los siguientes servicios:</p>
+			
+				<div class="col-md-8 col-md-offset-2 reductivo">
+					<div id="servicio_reductivo" class="centrar">
+						<img class="img_servicios" src="assets/img/prueba.svg" alt="MASAJES REDUCTIVOS Y YESOTERAPIA">
+						<h4>MASAJES REDUCTIVOS Y YESOTERAPIA</h4>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sequi sed esse, repellat sapiente consequuntur fugiat veniam impedit doloremque totam fuga recusandae ut, autem! Architecto totam neque, ratione illo numquam. Ratione, sequi sed esse, repellat sapiente consequuntur fugiat veniam impedit doloremque totam fuga recusandae ut, autem! Architecto totam neque, ratione illo numquam:</p>
 					<ul>
 						<li>TTKK respiratorias</li>
 						<li>Ejercicios para la función pulmonar</li>
 						<li>Educación sobre su patología de base y los cuidados necesarios para su control</li>
 					</ul>
-					<br>
-					<br>
-					<hr>
 				</div>
 			</div>
+
+			<div class="col-md-8 col-md-offset-2 empresas">
+				<div id="servicio_empresas" class="centrar">
+					<img class="img_servicios" src="assets/img/prueba.svg" alt="SALUD Y PREVENCIÓN EN EMPRESAS">
+					<h4>SALUD Y PREVENCIÓN EN EMPRESAS</h4>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sequi sed esse, repellat sapiente consequuntur fugiat veniam impedit doloremque totam fuga recusandae ut, autem! Architecto totam neque, ratione illo numquam. Ratione, sequi sed esse, repellat sapiente consequuntur fugiat veniam impedit doloremque totam fuga recusandae ut, autem! Architecto totam neque, ratione illo numquam:</p>
+				<ul>
+					<li>TTKK respiratorias</li>
+					<li>Ejercicios para la función pulmonar</li>
+					<li>Educación sobre su patología de base y los cuidados necesarios para su control</li>
+				</ul>
+			</div>
+			
+			<div class="col-md-8 col-md-offset-2 domicilio">
+				<div id="servicio_domicilio" class="centrar">
+					<img class="img_servicios" src="assets/img/prueba.svg" alt="ATENCIÓN KINÉSICA A DOMICILIO">
+					<h4>ATENCIÓN KINÉSICA A DOMICILIO</h4>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sequi sed esse, repellat sapiente consequuntur fugiat veniam impedit doloremque totam fuga recusandae ut, autem! Architecto totam neque, ratione illo numquam. Ratione, sequi sed esse, repellat sapiente consequuntur fugiat veniam impedit doloremque totam fuga recusandae ut, autem! Architecto totam neque, ratione illo numquam:</p>
+				<ul>
+					<li>TTKK respiratorias</li>
+					<li>Ejercicios para la función pulmonar</li>
+					<li>Educación sobre su patología de base y los cuidados necesarios para su control</li>
+				</ul>
+			</div>
+			
 		</div>
 	</div>
 

@@ -157,7 +157,7 @@ a:focus, a:hover {
 	padding: 4em;}
 
 .titulos {
-	text-align: center;}
+	text-align: center; padding-bottom: 1em;}
 
 .linea_center {
 	border-bottom: 3px solid #ff9595; padding: 0.2em;}
@@ -196,26 +196,45 @@ a:focus, a:hover {
 	padding: 4em;}
 
 .pie p {
-	color: white; font-weight: 600;}
+	color: white; 
+	font-weight: 600;}
 
 .pie span {
-	font-weight: 300; color: white;}
+	font-weight: 300; 
+	color: white;}
 
-.pie i {padding-right: 1em; font-size: 14px; color: #ff9595;}
+.pie i {
+	padding-right: 1em; 
+	font-size: 14px; 
+	color: #ff9595;}
 
 .footer {
 	background-color: #191919; 
 	padding: 1em;}
 
-.footer h6 {text-align: center; color: white; font-weight: 300;}
+.footer h6 {
+	text-align: center; 
+	color: white; 
+	font-weight: 300;}
 
 
 /* Página Servicios */
-.servicios_main {
-    margin-top: 15em;
-}
+.centrar {
+	text-align: center; 
+	padding-top: 11em;}
 
-.img_servicios {width: 12%;}
+.img_servicios {
+	width: 20%; 
+	padding-bottom: 1em; 
+	padding-top: 3em;}
+
+.servicios_main h4 {
+	text-align: center; 
+	padding-bottom: 1em;}
+
+.servicios_main ul {
+	border-bottom: 1px solid #dcdcdc; 
+	padding-bottom: 5em;}
 
 
 

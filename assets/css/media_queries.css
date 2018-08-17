@@ -1,5 +1,13 @@
 /* Media Queries */
 
+
+@media (max-width: 470px){
+
+.img_servicios {width: 30%;}
+
+}
+
+
 @media (max-width: 767px){
 .info {
 	display: none;}
