@@ -189,6 +189,9 @@ a:focus, a:hover {
 .jumbotron_info i {
 	font-size: 30px;}
 
+.jumbotron_info a {
+	color: white;}
+
 
 /* Footer */
 .pie {
@@ -236,6 +239,11 @@ a:focus, a:hover {
 	border-bottom: 1px solid #dcdcdc; 
 	padding-bottom: 5em;}
 
+
+/* Página Convenios */
+
+.convenios_main {margin-top: 15em; margin-bottom: 5em;}
+.convenios_logos {margin: 3em 0;}
 
 
 
