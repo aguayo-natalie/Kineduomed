@@ -6,6 +6,7 @@
 .img_servicios {width: 30%;}
 .nosotros_main {margin-top: 10em;}
 .contacto_mapa {margin-top: 10.5em;}
+.convenios_main {margin-top: 10em;}
 }
 
 
@@ -19,19 +20,32 @@
 .servicios_fondo {
 	margin-top: 10.8em;
 	background-position: 75%;}
+
+.nav-pills>li {
+    float: none;}
 }
 
 
 @media (max-width: 991px){
-.convenios_main__textos {padding: 4em; margin-top: 2em; margin-bottom: 1em;}
+.convenios_main__textos {
+	padding: 4em; 
+	margin-top: 2em; 
+	margin-bottom: 1em;}
 }
 
 @media (min-width: 767px) and (max-width: 991px){
 .imagen_nosotros_home {
-    background-position: 0% 95%;
-    }
+    background-position: 0% 95%;}
+
 .nosotros_main {
-    background-position: 0% 0%;
-    }
+    background-position: 0% 0%;}
+}
+
+@media (min-width: 768px) and (max-width: 971px){
+	.nav-pills {display: none;}
+
+	.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+    text-align: center;
+}
 }
 

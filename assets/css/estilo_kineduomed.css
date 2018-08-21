@@ -17,7 +17,8 @@ h1, h2 {font-weight: 300; font-size: 24px;}
     background-color: #ff9595;
 	padding: 16px 25px;}
 
-.nav-pills>li.active>a:hover {background-color: #ff8282;}
+.nav-pills>li.active>a:hover {
+	background-color: #ff8282;}
 
 .nav-pills>li>a {
     border-radius: 0;}
@@ -47,6 +48,7 @@ h1, h2 {font-weight: 300; font-size: 24px;}
 .blanco {
 	background-color: white;}
 
+
 /* Menú */
 .navbar-inverse {
 	border-radius: 0; 
@@ -59,7 +61,8 @@ h1, h2 {font-weight: 300; font-size: 24px;}
     background-color: #090909;}
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    margin-right: 0.5em;}
+    margin-right: 0.5em;
+	text-align: center;}
 
 .dropdown-menu {
    font-size: 12px}
@@ -158,8 +161,7 @@ a:focus, a:hover {
 .espacio {padding-top: 3em;}
 
 
-
-/* Te Recomendamos / Blog */
+/* Te Recomendamos - Blog */
 .recomendamos {
 	padding: 4em;}
 
@@ -249,16 +251,14 @@ a:focus, a:hover {
 
 /* Página Convenios */
 .convenios_main {
-	margin-top: 16em; 
-	margin-bottom: 1em;}
+	margin-top: 12em; 
+	padding-top: 4em;
+	background-color: #f8f8f8;}
 
 .convenios_main__logos {
 	margin: 3em 0; 
 	-webkit-filter: grayscale(100%);
     filter: grayscale(100%);}
-
-.convenios_main__escribenos {
-	background-color: #f8f8f8;}
 
 .convenios_main__escribenos a {
 	color: #ff9595;}
@@ -310,20 +310,67 @@ a:focus, a:hover {
 
 
 /* Página Contacto */
-.contacto_mapa {margin-top: 12em;}
+.contacto_mapa {
+	margin-top: 12em;}
 
-.contacto_formulario {margin-top: 5em; margin-bottom: 5em;}
+.contacto_formulario {
+	margin-top: 5em; 
+	margin-bottom: 5em;}
+
+.contacto_formulario__info {
+	margin-top: 1.5em;}
+
+.contacto_formulario__info h4 {
+	font-weight: 300; margin-bottom: 1em;}
+
+.contacto_formulario__info p {
+	font-weight: 600;}
+
+.contacto_formulario__info span {
+	font-weight: 300;}
+
+.contacto_formulario__info a {color: #414141;}
+
+.contacto_formulario__info i {
+	padding-right: 1em; 
+	font-size: 16px; 
+	color: #ff9595;}
+
 .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
     height: 370px;}
 
 .embed-responsive-16by9 {
     padding-bottom: 370px;}
 
-.form-group input {margin-bottom: 1em;}
-.form-group {margin-top: 2em;}
+.form-group input {
+	margin-bottom: 1em;
+	background-color: #80808014;
+    border: none;}
 
+.form-group {
+	margin-top: 2em;}
 
+.form-group button {
+	margin-top: 2em; float: right;}
 
+textarea.form-control {
+	background-color: #80808014;
+	border: none;}
 
+.btn-default {
+  background-color: #ff9595;
+  text-shadow: none;
+  background-image: none;
+  border: none;
+  color: white;
+	width: 25%;}
 
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+	background-color: #ff8282;
+	color: white;}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: white;
+    background-color: #ff8282;
+    border: none;}
 
