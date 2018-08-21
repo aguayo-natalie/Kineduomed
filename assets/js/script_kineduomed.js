@@ -15,6 +15,10 @@ var swiper = new Swiper('.swiper-container-02', {
     slidesPerView: 5,
     loop: true,
     spaceBetween: -60,
+    //   autoplay: {
+    //       delay: 2500,
+    //       disableOnInteraction: false,
+    //  },
     breakpoints: {
         1024: {
             slidesPerView: 3,
@@ -34,4 +38,3 @@ var swiper = new Swiper('.swiper-container-02', {
         }
     }
 });
-

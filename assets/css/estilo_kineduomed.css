@@ -310,13 +310,18 @@ a:focus, a:hover {
 
 
 /* Página Contacto */
+.contacto_mapa {margin-top: 12em;}
 
-.contacto_formulario {margin-top: 16em;}
+.contacto_formulario {margin-top: 5em; margin-bottom: 5em;}
 .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
     height: 370px;}
 
 .embed-responsive-16by9 {
-    padding-bottom: 370px;
+    padding-bottom: 370px;}
+
+.form-group input {margin-bottom: 1em;}
+.form-group {margin-top: 2em;}
+
 
 
 
