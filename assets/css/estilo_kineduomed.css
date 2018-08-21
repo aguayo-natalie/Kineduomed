@@ -82,14 +82,25 @@ h1, h2 {font-weight: 300; font-size: 24px;}
 
 
 /* Servicios */
-.fondo {
+.servicios_fondo {
 	background-image: url(../img/home_superior.jpg); 
 	background-repeat: no-repeat; 
 	background-size: cover; 
-	background-position: center; 
-	height: 400px; 
+	background-position: top; 
+	height: 350px; 
 	margin-top: 12em;
 	position: relative;}
+
+/*.servicios_fondo {
+    background-image: url("../img/home_superior.jpg");
+    height: 300px; 
+	margin-top: 140px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/		
 
 
 .swiper-container {
@@ -106,7 +117,7 @@ h1, h2 {font-weight: 300; font-size: 24px;}
 
 .servicios {
 	position: absolute; 
-	top: 28em;
+	top: 24em;
 	right: 0;
 	left: 0}
 
@@ -239,24 +250,37 @@ a:focus, a:hover {
 /* Página Convenios */
 .convenios_main {
 	margin-top: 16em; 
-	margin-bottom: 7em;}
+	margin-bottom: 1em;}
 
-.convenios_logos {
+.convenios_main__logos {
 	margin: 3em 0; 
 	-webkit-filter: grayscale(100%);
     filter: grayscale(100%);}
 
-.fondo_convenios {
-	background-image: url(../img/convenios.jpg); 
-	background-repeat: no-repeat; 
-	background-size: cover; 
-	background-position: center; 
-	height: 200px; 
-	margin-top: 12em;
-	position: relative;}
+.convenios_main__escribenos {
+	background-color: #f8f8f8;}
 
-.convenios_main a {color: #ff9595;}
-.convenios_main h4 {color: #ff9595; text-align: center; font-weight: 400; margin-top: 2em;}
+.convenios_main__escribenos a {
+	color: #ff9595;}
+
+.convenios_main__escribenos h5 {
+	color: #ff9595; 
+	text-align: center; 
+	font-weight: 400; 
+	margin-top: 3em;}
+
+.convenios_main__textos {
+	padding: 4em; 
+	margin-top: 6em;}
+
+.imagen_convenios {
+	background-image: url(../img/convenios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    height: 425px;}
+
+
 /* Página Nosotros */
 .imagen_nosotros {
 	background-image: url(../img/equipo.jpg);
@@ -264,12 +288,35 @@ a:focus, a:hover {
     background-size: cover;
     background-position: 0% 30%;
     height: 425px;}
-.nosotros_main {margin-top: 12em;}
-.nosotros_equipo {padding: 3em 3em 5em 3em; text-align: center;}
-.nosotros_equipo img {border-radius: 300px; width: 50%; margin-top: 3em;}
-.nosotros_equipo h4 {margin-bottom: 0.2em; color: #ff9595}
-.nosotros_equipo__fondo {background-color: #f8f8f8;}
 
+.nosotros_main {
+	margin-top: 12em;}
+
+.nosotros_equipo {
+	padding: 3em 3em 5em 3em; 
+	text-align: center;}
+
+.nosotros_equipo img {
+	border-radius: 300px; 
+	width: 50%; 
+	margin-top: 3em;}
+
+.nosotros_equipo h4 {
+	margin-bottom: 0.2em; 
+	color: #ff9595}
+
+.nosotros_equipo__fondo 
+	{background-color: #f8f8f8;}
+
+
+/* Página Contacto */
+
+.contacto_formulario {margin-top: 16em;}
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    height: 370px;}
+
+.embed-responsive-16by9 {
+    padding-bottom: 370px;
 
 
 
