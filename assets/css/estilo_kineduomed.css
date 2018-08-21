@@ -132,7 +132,6 @@ a:focus, a:hover {
 
 
 /* Nosotros Home */
-
 .imagen_nosotros_home {
 	background-image: url(../img/nosotros_home.jpg);
     background-repeat: no-repeat;
@@ -143,9 +142,6 @@ a:focus, a:hover {
 .nosotros_home {
 	margin-top: 16em; 
 	background-color: #f8f8f8;}
-
-.textos .strong {
-	font-weight: 600;}
 
 .textos {padding: 4em;}
 .espacio {padding-top: 3em;}
@@ -241,11 +237,36 @@ a:focus, a:hover {
 
 
 /* Página Convenios */
+.convenios_main {
+	margin-top: 16em; 
+	margin-bottom: 7em;}
 
-.convenios_main {margin-top: 15em; margin-bottom: 5em;}
-.convenios_logos {margin: 3em 0;}
+.convenios_logos {
+	margin: 3em 0; 
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);}
 
+.fondo_convenios {
+	background-image: url(../img/convenios.jpg); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center; 
+	height: 200px; 
+	margin-top: 12em;
+	position: relative;}
 
+/* Página Nosotros */
+.imagen_nosotros {
+	background-image: url(../img/equipo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    height: 425px;}
+.nosotros_main {margin-top: 12em;}
+.nosotros_equipo {padding: 3em 3em 5em 3em; text-align: center;}
+.nosotros_equipo img {border-radius: 300px; width: 50%; margin-top: 3em;}
+.nosotros_equipo h4 {margin-bottom: 0.2em; color: #ff9595}
+.nosotros_equipo__fondo {background-color: #f8f8f8;}
 
 
 

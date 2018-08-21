@@ -21,6 +21,11 @@
 	background-position: 75%;}
 }
 
+.fondo_convenios {
+	margin-top: 10.8em;
+	background-position: 40%;}
+}
+
 
 @media (min-width: 767px) and (max-width: 991px){
 .imagen_nosotros_home {
