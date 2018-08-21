@@ -255,6 +255,8 @@ a:focus, a:hover {
 	margin-top: 12em;
 	position: relative;}
 
+.convenios_main a {color: #ff9595;}
+.convenios_main h4 {color: #ff9595; text-align: center; font-weight: 400; margin-top: 2em;}
 /* Página Nosotros */
 .imagen_nosotros {
 	background-image: url(../img/equipo.jpg);
