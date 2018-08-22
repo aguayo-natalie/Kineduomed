@@ -253,7 +253,7 @@ a:focus, a:hover {
 
 .img_servicios {
 	width: 20%; 
-	padding-top: 3em;}
+	padding-top: 5em;}
 
 .servicios_main h4 {
 	text-align: center; 
@@ -261,7 +261,14 @@ a:focus, a:hover {
 
 .servicios_main ul {
 	border-bottom: 1px solid #dcdcdc; 
-	padding-bottom: 4em;}
+	padding-bottom: 6em;}
+
+.servicios_main span ul {
+	border-bottom: none;
+	padding-bottom: 0em;}
+
+.servicios_main span p {
+	padding-bottom: 6em;}
 
 
 /* Página Convenios */
