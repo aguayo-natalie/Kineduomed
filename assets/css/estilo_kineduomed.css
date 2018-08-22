@@ -1,14 +1,17 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
-	color: #414141;}
+	color: #414141;
+	padding-top: 130px;}
 
 header { 
 	position: fixed;
 	top: 0; 
 	width: 100%;}
 
-h1, h2 {font-weight: 300; font-size: 24px;}
+h1, h2 {
+	font-weight: 300; 
+	font-size: 24px;}
 
 
 /* Agendar hora */
@@ -82,6 +85,10 @@ h1, h2 {font-weight: 300; font-size: 24px;}
 	background-color: #333333;
 	background-image: none;
 	color: white;}
+	
+.navbar-nav>li>.dropdown-menu {
+   text-align: center;
+}
 
 
 /* Servicios */
@@ -91,7 +98,7 @@ h1, h2 {font-weight: 300; font-size: 24px;}
 	background-size: cover; 
 	background-position: top; 
 	height: 350px; 
-	margin-top: 12em;
+	margin-top: 1em;
 	position: relative;}
 
 /*.servicios_fondo {
@@ -166,16 +173,19 @@ a:focus, a:hover {
 	padding: 4em;}
 
 .titulos {
-	text-align: center; padding-bottom: 1em;}
+	text-align: center; 
+	padding-bottom: 1em;}
 
 .linea_center {
-	border-bottom: 3px solid #ff9595; padding: 0.2em;}
+	border-bottom: 3px solid #ff9595; 
+	padding: 0.2em;}
 
 .ultimas_entradas {
 	margin-top: 4em;}
 
 .ultimas_entradas h4 {
-	font-size: 16px; font-weight: 600;}
+	font-size: 16px; 
+	font-weight: 600;}
 
 
 /* Mapa */
@@ -232,12 +242,17 @@ a:focus, a:hover {
 
 /* Página Servicios */
 .centrar {
-	text-align: center; 
-	padding-top: 11em;}
+	text-align: center;}
+
+/*.ancla::before {       
+  display: block;       
+  content: " "       
+  margin-top: -130px;       
+  height: 130px;       
+  visibility: hidden;}*/
 
 .img_servicios {
 	width: 20%; 
-	padding-bottom: 1em; 
 	padding-top: 3em;}
 
 .servicios_main h4 {
@@ -246,12 +261,11 @@ a:focus, a:hover {
 
 .servicios_main ul {
 	border-bottom: 1px solid #dcdcdc; 
-	padding-bottom: 5em;}
+	padding-bottom: 4em;}
 
 
 /* Página Convenios */
 .convenios_main {
-	margin-top: 12em; 
 	padding-top: 4em;
 	background-color: #f8f8f8;}
 
@@ -289,9 +303,6 @@ a:focus, a:hover {
     background-position: 0% 30%;
     height: 425px;}
 
-.nosotros_main {
-	margin-top: 12em;}
-
 .nosotros_equipo {
 	padding: 3em 3em 5em 3em; 
 	text-align: center;}
@@ -311,17 +322,18 @@ a:focus, a:hover {
 
 /* Página Contacto */
 .contacto_mapa {
-	margin-top: 12em;}
+	margin-top: 1em;}
 
 .contacto_formulario {
-	margin-top: 5em; 
+	margin-top: 3em; 
 	margin-bottom: 5em;}
 
 .contacto_formulario__info {
 	margin-top: 1.5em;}
 
 .contacto_formulario__info h4 {
-	font-weight: 300; margin-bottom: 1em;}
+	font-weight: 300; 
+	margin-bottom: 1em;}
 
 .contacto_formulario__info p {
 	font-weight: 600;}
@@ -329,7 +341,8 @@ a:focus, a:hover {
 .contacto_formulario__info span {
 	font-weight: 300;}
 
-.contacto_formulario__info a {color: #414141;}
+.contacto_formulario__info a {
+	color: #414141;}
 
 .contacto_formulario__info i {
 	padding-right: 1em; 
@@ -343,7 +356,7 @@ a:focus, a:hover {
     padding-bottom: 370px;}
 
 .form-group input {
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	background-color: #80808014;
     border: none;}
 
@@ -351,18 +364,19 @@ a:focus, a:hover {
 	margin-top: 2em;}
 
 .form-group button {
-	margin-top: 2em; float: right;}
+	margin-top: 1em; 
+	float: right;}
 
 textarea.form-control {
 	background-color: #80808014;
 	border: none;}
 
 .btn-default {
-  background-color: #ff9595;
-  text-shadow: none;
-  background-image: none;
-  border: none;
-  color: white;
+	background-color: #ff9595;
+	text-shadow: none;
+	background-image: none;
+	border: none;
+	color: white;
 	width: 25%;}
 
 .btn-default:hover, .btn-default:focus, .btn-default:active {
@@ -373,4 +387,6 @@ textarea.form-control {
     color: white;
     background-color: #ff8282;
     border: none;}
+
+
 
